@@ -169,7 +169,7 @@ def prepare_mask_and_masked_image(image, mask):
 
     return mask, masked_image
 
-class StableDiffusionControlNetInpaintPipeline(DiffusionPipelinePipeline):
+class StableDiffusionControlNetInpaintPipeline(DiffusionPipeline):
     r"""
     Pipeline for text-guided image inpainting using Stable Diffusion with ControlNet guidance.
 
