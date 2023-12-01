@@ -727,8 +727,6 @@ def main(args):
                 revision=args.revision,
             )
             pipeline.scheduler = DDIMScheduler.from_config(pipeline.scheduler.config)
-            if is_xformers_available():
-                pipeline.enable_xformers_memory_efficient_attention()
             save_dir = os.path.join(args.output_dir, f"{step}")
             pipeline.save_pretrained(save_dir)
             with open(os.path.join(save_dir, "args.json"), "w") as f:
