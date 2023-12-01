@@ -1,6 +1,6 @@
 path_sd15 = '/content/ControlNet/models/v1-5-pruned.ckpt'
 path_sd15_with_control = '/content/ControlNet/models/control_sd15_openpose.pth'
-path_input = '/content/model/1200/model.ckpt'
+path_input = '/content/model/1560/model.ckpt'
 path_output = '/content/model/control_dreambooth_openpose.pth'
 
 
