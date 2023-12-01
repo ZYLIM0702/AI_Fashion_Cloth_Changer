@@ -1,7 +1,7 @@
-path_sd15 = '/content/ControlNet/models/v1-5-pruned.ckpt'
-path_sd15_with_control = '/content/ControlNet/models/control_sd15_openpose.pth'
-path_input = '/content/model/800/model.ckpt'
-path_output = '/content/model/control_dreambooth_openpose.pth'
+path_sd15 = '/ControlNet/models/v1-5-pruned.ckpt'
+path_sd15_with_control = '/ControlNet/models/control_sd15_openpose.pth'
+path_input = '/model/800/model.ckpt'
+path_output = '/model/control_dreambooth_openpose.pth'
 
 
 import os
